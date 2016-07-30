@@ -1,4 +1,4 @@
-update=mar. 26 juil. 2016 07:51:47 CEST
+update=sam. 30 juil. 2016 14:12:43 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=socket_leon_x3_dil64
+LibName30=bot_parts

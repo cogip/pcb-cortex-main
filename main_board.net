@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/yannick/Robots/out_pcb_cortex/main_board.sch)
-    (date "mar. 26 juil. 2016 08:08:28 CEST")
+    (date "sam. 30 juil. 2016 14:13:58 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu15.10.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,11 +18,11 @@
     (comp (ref U1)
       (value socket_leon_x3_dil64)
       (footprint Housings_DIP:DIP-64_W22.86mm_LongPads)
-      (libsource (lib socket_leon_x3_dil64) (part socket_leon_x3_dil64))
+      (libsource (lib bot_parts) (part socket_leon_x3_dil64))
       (sheetpath (names /) (tstamps /))
       (tstamp 5797049D)))
   (libparts
-    (libpart (lib socket_leon_x3_dil64) (part socket_leon_x3_dil64)
+    (libpart (lib bot_parts) (part socket_leon_x3_dil64)
       (fields
         (field (name Reference) U)
         (field (name Value) socket_leon_x3_dil64))
@@ -92,8 +92,8 @@
         (pin (num 63) (name A1) (type BiDi))
         (pin (num 64) (name A2) (type BiDi)))))
   (libraries
-    (library (logical socket_leon_x3_dil64)
-      (uri socket_leon_x3_dil64.lib)))
+    (library (logical bot_parts)
+      (uri bot_parts.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad56)")
       (node (ref U1) (pin 56)))

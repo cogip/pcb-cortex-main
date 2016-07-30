@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:socket_leon_x3_dil64
+LIBS:bot_parts
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
