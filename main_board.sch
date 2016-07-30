@@ -54,4 +54,26 @@ F 3 "" H 3900 2100 60  0000 C CNN
 	1    3850 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L socket_pololu_24v12 U2
+U 1 1 579CA531
+P 7400 2600
+F 0 "U2" H 7400 2600 60  0000 C CNN
+F 1 "socket_pololu_24v12" H 6650 2050 60  0000 C CNN
+F 2 "bot_parts:pololu_24v12_dip" H 6650 2050 60  0001 C CNN
+F 3 "" H 6650 2050 60  0000 C CNN
+	1    7400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L socket_pololu_24v12 U3
+U 1 1 579CA5E2
+P 7400 4150
+F 0 "U3" H 7400 4150 60  0000 C CNN
+F 1 "socket_pololu_24v12" H 6650 3600 60  0000 C CNN
+F 2 "bot_parts:pololu_24v12_dip" H 6650 3600 60  0001 C CNN
+F 3 "" H 6650 3600 60  0000 C CNN
+	1    7400 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
