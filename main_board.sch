@@ -362,4 +362,56 @@ Wire Wire Line
 	4300 4350 4300 4300
 Wire Wire Line
 	4300 4300 4350 4300
+Text GLabel 2650 3650 0    60   Input ~ 0
+UART0_TXD
+Text GLabel 2650 3800 0    60   Input ~ 0
+UART0_RXD
+Text Label 3300 3700 0    60   ~ 0
+/RXD0
+Text Label 3300 3800 0    60   ~ 0
+/TXD0
+Wire Wire Line
+	2650 3650 2950 3650
+Wire Wire Line
+	2650 3800 2700 3800
+Wire Wire Line
+	2700 3800 2700 3750
+Wire Wire Line
+	2700 3750 2950 3750
+$Comp
+L CONN_01X05 P2
+U 1 1 579EF336
+P 1750 6750
+F 0 "P2" H 1750 7050 50  0000 C CNN
+F 1 "CONN_01X05" V 1850 6750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 1750 6750 50  0001 C CNN
+F 3 "" H 1750 6750 50  0000 C CNN
+	1    1750 6750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2150 6650 2    60   Input ~ 0
+UART0_TXD
+Text GLabel 2150 6750 2    60   Input ~ 0
+UART0_RXD
+$Comp
+L GND #PWR08
+U 1 1 579EF665
+P 2200 6950
+F 0 "#PWR08" H 2200 6700 50  0001 C CNN
+F 1 "GND" H 2200 6800 50  0000 C CNN
+F 2 "" H 2200 6950 50  0000 C CNN
+F 3 "" H 2200 6950 50  0000 C CNN
+	1    2200 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6750 2150 6750
+Wire Wire Line
+	1950 6650 2150 6650
+Wire Wire Line
+	1950 6850 2200 6850
+Wire Wire Line
+	2200 6850 2200 6950
+Text Label 1400 6300 0    60   ~ 0
+To_"USBToTTL_cable"
 $EndSCHEMATC
