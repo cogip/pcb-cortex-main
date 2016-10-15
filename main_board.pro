@@ -56,6 +56,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=bot_parts
+LibName30=libs/bot_parts
 [general]
 version=1

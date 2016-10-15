@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/yannick/Robots/out_pcb_cortex/main_board.sch)
-    (date "sam. 15 oct. 2016 11:08:18 CEST")
+    (date "sam. 15 oct. 2016 11:39:32 CEST")
     (tool "Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -250,10 +250,10 @@
         (pin (num 15) (name 5V) (type output))
         (pin (num 16) (name V+) (type input)))))
   (libraries
-    (library (logical bot_parts)
-      (uri bot_parts.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical bot_parts)
+      (uri libs/bot_parts.lib)))
   (nets
     (net (code 1) (name ENCA_L)
       (node (ref U1) (pin 39))
