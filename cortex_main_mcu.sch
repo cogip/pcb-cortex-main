@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:bot_parts
-LIBS:main_board-cache
+LIBS:cortex_main-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

@@ -11,7 +11,7 @@ sudo apt-get install kicad
 ## To open the project
 
 ```bash
-kicad main_board.pro
+kicad cortex_main.pro
 ```
 
 ## Quick tutorial

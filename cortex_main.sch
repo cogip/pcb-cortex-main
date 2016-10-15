@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:bot_parts
-LIBS:main_board-cache
+LIBS:cortex_main-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,7 +48,7 @@ $Sheet
 S 2850 1850 1950 2200
 U 57A04579
 F0 "Sheet_MCU" 60
-F1 "main_board_mcu.sch" 60
+F1 "cortex_main_mcu.sch" 60
 F2 "UART_DGB_TXD" I L 2850 2200 60 
 F3 "UART_DBG_RXD" I L 2850 2350 60 
 F4 "DIR_L" I R 4800 2150 60 
@@ -64,7 +64,7 @@ $Sheet
 S 6050 1850 1350 2200
 U 57A060D2
 F0 "Sheet_Motors" 60
-F1 "main_board_motors.sch" 60
+F1 "cortex_main_motors.sch" 60
 F2 "PWM_L" I L 6050 2050 60 
 F3 "DIR_L" I L 6050 2150 60 
 F4 "PWM_R" I L 6050 2550 60 
@@ -78,7 +78,7 @@ $Sheet
 S 2850 4550 1450 1500
 U 57A0BF17
 F0 "Sheet_Connectors" 60
-F1 "main_board_conn.sch" 60
+F1 "cortex_main_conn.sch" 60
 F2 "UART_DBG_TXD" I L 2850 4800 60 
 F3 "UART_DBG_RXD" I L 2850 4700 60 
 F4 "ENCB_L" I R 4300 5200 60 
@@ -142,6 +142,6 @@ $Sheet
 S 5550 4650 1150 1250
 U 5802031E
 F0 "Sheet_PSU" 60
-F1 "main_board_psu.sch" 60
+F1 "cortex_main_psu.sch" 60
 $EndSheet
 $EndSCHEMATC
