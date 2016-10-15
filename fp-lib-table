@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name bot_parts)(type KiCad)(uri ${KIPRJMOD}/libs/bot_parts-footprints)(options "")(descr ""))
+  (lib (name arduino_shields)(type KiCad)(uri ${KIPRJMOD}/libs/arduino_shields-footprints)(options "")(descr "CC License: http://www.thingiverse.com/thing:9630"))
 )
