@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -138,4 +138,10 @@ Wire Wire Line
 	4800 2750 4900 2750
 Wire Wire Line
 	4800 2850 4900 2850
+$Sheet
+S 5550 4650 1150 1250
+U 5802031E
+F0 "Sheet_PSU" 60
+F1 "main_board_psu.sch" 60
+$EndSheet
 $EndSCHEMATC
