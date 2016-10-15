@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:bot_parts
-LIBS:minus_main-cache
+LIBS:arduino_shieldsNCL
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

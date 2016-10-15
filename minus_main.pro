@@ -1,4 +1,4 @@
-update=sam. 15 oct. 2016 11:00:58 CEST
+update=sam. 15 oct. 2016 13:45:06 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,5 +57,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=libs/bot_parts
+LibName31=libs/arduino_shieldsNCL
 [general]
 version=1
