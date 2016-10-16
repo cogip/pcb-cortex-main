@@ -10,8 +10,11 @@ sudo apt-get install kicad
 
 ## To open the project
 
+Multiple projects are available:
+
 ```bash
 kicad cortex_main.pro
+kicad minus_main.pro
 ```
 
 ## Quick tutorial
