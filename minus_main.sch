@@ -59,6 +59,7 @@ F8 "ENCA_R" I R 4800 2750 60
 F9 "ENCA_L" I R 4800 2250 60 
 F10 "PWM_R" I R 4800 2550 60 
 F11 "PWM_L" I R 4800 2050 60 
+F12 "BT_KEY" I L 2850 2500 60 
 $EndSheet
 $Sheet
 S 6050 1850 1350 2200
@@ -81,27 +82,11 @@ F4 "ENCB_L" I R 4300 5200 60
 F5 "ENCA_L" I R 4300 5100 60 
 F6 "ENCB_R" I R 4300 5450 60 
 F7 "ENCA_R" I R 4300 5350 60 
+F8 "BT_KEY" I L 2850 5200 60 
+F9 "BT_TXD" I L 2850 5050 60 
+F10 "BT_RXD" I L 2850 4950 60 
+F11 "BT_STATE" I L 2850 5300 60 
 $EndSheet
-Wire Wire Line
-	4800 2050 6050 2050
-Wire Wire Line
-	4800 2150 6050 2150
-Wire Wire Line
-	4800 2550 6050 2550
-Wire Wire Line
-	4800 2650 6050 2650
-Wire Wire Line
-	2850 4700 2650 4700
-Wire Wire Line
-	2650 4700 2650 2350
-Wire Wire Line
-	2650 2350 2850 2350
-Wire Wire Line
-	2550 2200 2550 4800
-Wire Wire Line
-	2550 4800 2850 4800
-Wire Wire Line
-	2850 2200 2550 2200
 Text GLabel 4550 5100 2    60   Input ~ 0
 ENCA_L
 Text GLabel 4550 5200 2    60   Input ~ 0
@@ -118,6 +103,32 @@ Text GLabel 4900 2750 2    60   Input ~ 0
 ENCA_R
 Text GLabel 4900 2850 2    60   Input ~ 0
 ENCB_R
+$Sheet
+S 5550 4650 1150 1250
+U 5802031E
+F0 "Sheet_PSU" 60
+F1 "minus_main_psu.sch" 60
+$EndSheet
+Wire Wire Line
+	4800 2050 6050 2050
+Wire Wire Line
+	4800 2150 6050 2150
+Wire Wire Line
+	4800 2550 6050 2550
+Wire Wire Line
+	4800 2650 6050 2650
+Wire Wire Line
+	2850 4700 2650 4700
+Wire Wire Line
+	2650 2350 2650 4950
+Wire Wire Line
+	2650 2350 2850 2350
+Wire Wire Line
+	2550 2200 2550 5050
+Wire Wire Line
+	2550 4800 2850 4800
+Wire Wire Line
+	2850 2200 2550 2200
 Wire Wire Line
 	4300 5100 4550 5100
 Wire Wire Line
@@ -134,10 +145,16 @@ Wire Wire Line
 	4800 2750 4900 2750
 Wire Wire Line
 	4800 2850 4900 2850
-$Sheet
-S 5550 4650 1150 1250
-U 5802031E
-F0 "Sheet_PSU" 60
-F1 "minus_main_psu.sch" 60
-$EndSheet
+Wire Wire Line
+	2650 4950 2850 4950
+Connection ~ 2650 4700
+Wire Wire Line
+	2550 5050 2850 5050
+Connection ~ 2550 4800
+Wire Wire Line
+	2850 2500 2450 2500
+Wire Wire Line
+	2450 2500 2450 5200
+Wire Wire Line
+	2450 5200 2850 5200
 $EndSCHEMATC
