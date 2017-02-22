@@ -101,8 +101,6 @@ Wire Wire Line
 	2850 4700 2650 4700
 Wire Wire Line
 	2550 4800 2850 4800
-Wire Wire Line
-	2850 2200 2550 2200
 Text GLabel 4550 5100 2    60   Input ~ 0
 ENCA_L
 Text GLabel 4550 5200 2    60   Input ~ 0
