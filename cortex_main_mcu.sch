@@ -98,4 +98,12 @@ Text HLabel 4900 4800 2    60   Input ~ 0
 PWM_L
 Wire Wire Line
 	4900 4300 4550 4300
+Text HLabel 3100 3500 0    60   Input ~ 0
+SDA
+Text HLabel 3100 3600 0    60   Input ~ 0
+SCL
+Wire Wire Line
+	3450 3500 3100 3500
+Wire Wire Line
+	3450 3600 3100 3600
 $EndSCHEMATC
