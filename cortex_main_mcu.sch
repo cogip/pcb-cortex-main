@@ -67,8 +67,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3800 4900 3800
 Wire Wire Line
-	4550 4500 4900 4500
-Wire Wire Line
 	4550 4400 4900 4400
 Text Label 3800 3750 0    60   ~ 0
 /RXD0
@@ -88,14 +86,16 @@ Text HLabel 3100 5000 0    60   Input ~ 0
 DIR_R
 Text HLabel 4900 3700 2    60   Input ~ 0
 ENCB_R
-Text HLabel 4900 4400 2    60   Input ~ 0
+Text HLabel 4900 4300 2    60   Input ~ 0
 ENCB_L
 Text HLabel 4900 3800 2    60   Input ~ 0
 ENCA_R
-Text HLabel 4900 4500 2    60   Input ~ 0
+Text HLabel 4900 4400 2    60   Input ~ 0
 ENCA_L
 Text HLabel 4900 4700 2    60   Input ~ 0
 PWM_R
 Text HLabel 4900 4800 2    60   Input ~ 0
 PWM_L
+Wire Wire Line
+	4900 4300 4550 4300
 $EndSCHEMATC
