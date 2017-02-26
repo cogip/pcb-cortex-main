@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/yannick/Robots/pcb-cortex-main/cortex_main.sch)
-    (date "dim. 26 févr. 2017 11:58:18 CET")
+    (date "dim. 26 févr. 2017 13:16:31 CET")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -115,7 +115,7 @@
       (tstamp 58AD48F8))
     (comp (ref P5)
       (value CONN_01X02)
-      (footprint Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol)
+      (footprint Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /Sheet_Connectors/) (tstamps /57A0BF17/))
       (tstamp 58AD33D2))
