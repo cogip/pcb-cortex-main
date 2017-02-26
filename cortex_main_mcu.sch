@@ -78,11 +78,11 @@ Wire Wire Line
 	3100 3800 3450 3800
 Text HLabel 3100 3700 0    60   Input ~ 0
 UART_DGB_TXD
-Text HLabel 3100 3800 0    60   Input ~ 0
+Text HLabel 3100 3800 0    60   Output ~ 0
 UART_DBG_RXD
-Text HLabel 3100 4900 0    60   Input ~ 0
+Text HLabel 3100 4900 0    60   Output ~ 0
 DIR_L
-Text HLabel 3100 5000 0    60   Input ~ 0
+Text HLabel 3100 5000 0    60   Output ~ 0
 DIR_R
 Text HLabel 4900 3700 2    60   Input ~ 0
 ENCB_R
@@ -92,15 +92,15 @@ Text HLabel 4900 3800 2    60   Input ~ 0
 ENCA_R
 Text HLabel 4900 4400 2    60   Input ~ 0
 ENCA_L
-Text HLabel 4900 4700 2    60   Input ~ 0
+Text HLabel 4900 4700 2    60   Output ~ 0
 PWM_R
-Text HLabel 4900 4800 2    60   Input ~ 0
+Text HLabel 4900 4800 2    60   Output ~ 0
 PWM_L
 Wire Wire Line
 	4900 4300 4550 4300
-Text HLabel 3100 3500 0    60   Input ~ 0
+Text HLabel 3100 3500 0    60   BiDi ~ 0
 SDA_C
-Text HLabel 3100 3600 0    60   Input ~ 0
+Text HLabel 3100 3600 0    60   Output ~ 0
 SCL_C
 Wire Wire Line
 	3450 3500 3100 3500
@@ -316,17 +316,17 @@ Wire Wire Line
 	4650 5000 4550 5000
 Wire Wire Line
 	4750 4900 4550 4900
-Text HLabel 3100 4500 0    60   Input ~ 0
+Text HLabel 3100 4500 0    60   BiDi ~ 0
 SDA_D
-Text HLabel 3100 4600 0    60   Input ~ 0
+Text HLabel 3100 4600 0    60   Output ~ 0
 SCL_D
 Wire Wire Line
 	3100 4500 3450 4500
 Wire Wire Line
 	3100 4600 3450 4600
-Text HLabel 3100 4700 0    60   Input ~ 0
+Text HLabel 3100 4700 0    60   Output ~ 0
 RGB_LEDEN_L
-Text HLabel 3100 4800 0    60   Input ~ 0
+Text HLabel 3100 4800 0    60   Output ~ 0
 RGB_LEDEN_R
 Wire Wire Line
 	3100 4700 3450 4700
