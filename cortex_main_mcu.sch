@@ -364,4 +364,12 @@ Wire Wire Line
 	3450 3900 3100 3900
 Wire Wire Line
 	3450 4200 3100 4200
+Text HLabel 3100 2600 0    60   Output ~ 0
+CMD_ARMMOTOR_L
+Text HLabel 3100 2500 0    60   Output ~ 0
+CMD_ARMMOTOR_R
+Wire Wire Line
+	3100 2500 3450 2500
+Wire Wire Line
+	3450 2600 3100 2600
 $EndSCHEMATC
