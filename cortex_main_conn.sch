@@ -240,7 +240,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 1800 6600 1850
 Text Label 6050 1100 0    60   ~ 0
-To_SD21_I2C
+To_SD21(I2C@0xC1)
 Text Label 1300 2350 0    60   ~ 0
 From_main_batteries
 $Comp
