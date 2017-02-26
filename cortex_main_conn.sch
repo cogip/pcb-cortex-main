@@ -260,7 +260,7 @@ U 1 1 58AD33D2
 P 6250 2600
 F 0 "P5" H 6250 2750 50  0000 C CNN
 F 1 "CONN_01X02" V 6350 2600 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 6250 2600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6250 2600 50  0001 C CNN
 F 3 "" H 6250 2600 50  0000 C CNN
 	1    6250 2600
 	-1   0    0    1   

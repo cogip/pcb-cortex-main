@@ -55,10 +55,6 @@ F 3 "" H 4050 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4700 4900 4700
-Wire Wire Line
-	4550 4800 4900 4800
-Wire Wire Line
 	3100 5000 3450 5000
 Wire Wire Line
 	3100 4900 3450 4900
@@ -80,9 +76,9 @@ Text HLabel 3100 3700 0    60   Input ~ 0
 UART_DGB_TXD
 Text HLabel 3100 3800 0    60   Output ~ 0
 UART_DBG_RXD
-Text HLabel 3100 4900 0    60   Output ~ 0
-DIR_L
 Text HLabel 3100 5000 0    60   Output ~ 0
+DIR_L
+Text HLabel 3100 4900 0    60   Output ~ 0
 DIR_R
 Text HLabel 4900 3700 2    60   Input ~ 0
 ENCB_R
@@ -92,9 +88,9 @@ Text HLabel 4900 3800 2    60   Input ~ 0
 ENCA_R
 Text HLabel 4900 4400 2    60   Input ~ 0
 ENCA_L
-Text HLabel 4900 4700 2    60   Output ~ 0
+Text HLabel 3100 4700 0    60   Output ~ 0
 PWM_R
-Text HLabel 4900 4800 2    60   Output ~ 0
+Text HLabel 3100 4800 0    60   Output ~ 0
 PWM_L
 Wire Wire Line
 	4900 4300 4550 4300
@@ -324,9 +320,9 @@ Wire Wire Line
 	3100 4500 3450 4500
 Wire Wire Line
 	3100 4600 3450 4600
-Text HLabel 3100 4700 0    60   Output ~ 0
+Text HLabel 3100 3900 0    60   Output ~ 0
 RGB_LEDEN_L
-Text HLabel 3100 4800 0    60   Output ~ 0
+Text HLabel 3100 4200 0    60   Output ~ 0
 RGB_LEDEN_R
 Wire Wire Line
 	3100 4700 3450 4700
@@ -364,4 +360,8 @@ Wire Wire Line
 	4900 2100 4550 2100
 Wire Wire Line
 	4550 2200 4900 2200
+Wire Wire Line
+	3450 3900 3100 3900
+Wire Wire Line
+	3450 4200 3100 4200
 $EndSCHEMATC
