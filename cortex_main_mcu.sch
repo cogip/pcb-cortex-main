@@ -332,4 +332,36 @@ Wire Wire Line
 	3100 4700 3450 4700
 Wire Wire Line
 	3100 4800 3450 4800
+Text HLabel 4900 2200 2    60   Input ~ 0
+IR_VIN_0
+Text HLabel 4900 2100 2    60   Input ~ 0
+IR_VIN_1
+Text HLabel 4900 2000 2    60   Input ~ 0
+IR_VIN_2
+Text HLabel 3100 2000 0    60   Input ~ 0
+IR_VIN_3
+Text HLabel 3100 2100 0    60   Input ~ 0
+IR_VIN_4
+Text HLabel 3100 2200 0    60   Input ~ 0
+IR_VIN_5
+Text HLabel 3100 2300 0    60   Input ~ 0
+IR_VIN_6
+Text HLabel 3100 2400 0    60   Input ~ 0
+IR_VIN_7
+Wire Wire Line
+	3100 2400 3450 2400
+Wire Wire Line
+	3450 2300 3100 2300
+Wire Wire Line
+	3100 2200 3450 2200
+Wire Wire Line
+	3450 2100 3100 2100
+Wire Wire Line
+	3100 2000 3450 2000
+Wire Wire Line
+	4550 2000 4900 2000
+Wire Wire Line
+	4900 2100 4550 2100
+Wire Wire Line
+	4550 2200 4900 2200
 $EndSCHEMATC
