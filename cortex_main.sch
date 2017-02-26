@@ -112,6 +112,10 @@ F18 "IR_VIN_4" I L 2550 5650 60
 F19 "IR_VIN_5" I L 2550 5750 60 
 F20 "IR_VIN_6" I L 2550 5850 60 
 F21 "IR_VIN_7" I L 2550 5950 60 
+F22 "OUTB_L" I R 4000 5200 60 
+F23 "OUTA_L" I R 4000 5100 60 
+F24 "OUTB_R" I R 4000 5450 60 
+F25 "OUTA_R" I R 4000 5350 60 
 $EndSheet
 Text GLabel 4250 4550 2    60   Input ~ 0
 ENCA_L
@@ -271,4 +275,36 @@ Wire Wire Line
 	2350 2000 2550 2000
 Wire Wire Line
 	2350 2100 2550 2100
+Text GLabel 7200 1500 2    60   Input ~ 0
+OUTA_L
+Text GLabel 7200 1600 2    60   Input ~ 0
+OUTB_L
+Text GLabel 7200 2000 2    60   Input ~ 0
+OUTA_R
+Text GLabel 7200 2100 2    60   Input ~ 0
+OUTB_R
+Wire Wire Line
+	7200 2100 7100 2100
+Wire Wire Line
+	7100 2000 7200 2000
+Wire Wire Line
+	7200 1600 7100 1600
+Wire Wire Line
+	7100 1500 7200 1500
+Text GLabel 4250 5100 2    60   Input ~ 0
+OUTA_L
+Text GLabel 4250 5200 2    60   Input ~ 0
+OUTB_L
+Text GLabel 4250 5350 2    60   Input ~ 0
+OUTA_R
+Text GLabel 4250 5450 2    60   Input ~ 0
+OUTB_R
+Wire Wire Line
+	4000 5450 4250 5450
+Wire Wire Line
+	4000 5350 4250 5350
+Wire Wire Line
+	4000 5200 4250 5200
+Wire Wire Line
+	4000 5100 4250 5100
 $EndSCHEMATC
