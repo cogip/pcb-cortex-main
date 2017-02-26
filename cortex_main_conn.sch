@@ -224,9 +224,9 @@ F 3 "" H 6600 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6600 1600 2    60   Input ~ 0
-SDA
+SDA_C
 Text HLabel 6600 1700 2    60   Input ~ 0
-SCL
+SCL_C
 Wire Wire Line
 	6450 1700 6600 1700
 Wire Wire Line

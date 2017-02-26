@@ -99,9 +99,9 @@ PWM_L
 Wire Wire Line
 	4900 4300 4550 4300
 Text HLabel 3100 3500 0    60   Input ~ 0
-SDA
+SDA_C
 Text HLabel 3100 3600 0    60   Input ~ 0
-SCL
+SCL_C
 Wire Wire Line
 	3450 3500 3100 3500
 Wire Wire Line
